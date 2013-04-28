@@ -1,0 +1,8 @@
+# IDE ignores
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+.DS_Store

@@ -1,0 +1,7 @@
+{
+  "post": {
+    "id" : 1,
+    "title": "This is the post you're looking for!",
+    "body": "The server provided some data over REST - you're in business!"
+  }
+}
