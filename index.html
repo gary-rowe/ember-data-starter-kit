@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hello Ember Data</title>
+</head>
+<body>
+<div>
+  <h1>Hello Ember Data</h1>
+
+  <p>Use <code>python -m SimpleHTTPServer</code> to start a simple server, and then <a href="http://localhost:8000/api/posts/1.json">test the JSON API</a>.
+  </p>
+
+  <!-- Ember demo code starts -->
+
+  <section id="helloapp">
+
+    <!-- The application outlet -->
+    <script type="text/x-handlebars" data-template-name="application">
+        {{outlet}}
+    </script>
+
+    <!-- The default HTML template is called index -->
+    <script type="text/x-handlebars" data-template-name="index">
+      <p>If everything is working you'll see some text below:</p>
+      <h1>{{title}}</h1>
+      <p>{{body}}</p>
+    </script>
+
+  </section>
+
+  <!-- Ember demo code ends -->
+
+
+</div>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/handlebars.js"></script>
+<script type="text/javascript" src="js/ember.js"></script>
+<script type="text/javascript" src="js/ember-data.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</html>
